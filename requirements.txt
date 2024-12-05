@@ -1,0 +1,11 @@
+python-dotenv
+discord-py-interactions
+torch
+transformers
+beautifulsoup4
+google
+requests
+reportlab
+PyPDF2
+yt-dlp
+aiohttp 
