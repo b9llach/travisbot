@@ -28,10 +28,3 @@ Music commands are handled through natural language in mentions:
 - Skip: `@bot skip`
 - Pause/Resume: `@bot pause/resume`
 
-## License
-
-MIT License
-
-## Support
-
-For issues and feature requests, please open an issue on GitHub.
