@@ -28,3 +28,28 @@ Music commands are handled through natural language in mentions:
 - Skip: `@bot skip`
 - Pause/Resume: `@bot pause/resume`
 
+### 4. Discord Bot Setup
+1. Create a new application at [Discord Developer Portal](https://discord.com/developers/applications)
+2. Create a bot under the application
+3. Enable all Privileged Gateway Intents:
+   - Presence Intent
+   - Server Members Intent
+   - Message Content Intent
+4. Copy the bot token to your `.env` file
+5. Invite the bot to your server using the OAuth2 URL generator
+   - Select 'bot' and 'applications.commands' scopes
+   - Select necessary permissions (Admin recommended for all features)
+
+### 5. Run the Bot
+Make sure your virtual environment is activated:
+
+`python -m venv .venv` creates a new python virtual environment.
+Windows:
+`./.venv/scripts/activate`
+Linux:
+`. .venv/bin/activate`
+
+Once activated, run the bot:
+`python persona_bot.py`
+
+
